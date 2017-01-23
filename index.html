@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<meta charset="utf-8">
 <head>
 
     <meta charset="utf-8">
@@ -30,6 +30,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- <script src="http://code.highcharts.com/highcharts.js"></script> -->
 
 </head>
 
@@ -100,17 +101,9 @@
         </div>
     </section>
 
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
-                </div>
-            </div>
-        </div>
+    <!-- chart section -->
+    <section >
+        <div id="container" style="width:100%; height:400px;"></div>
     </section>
 
     <!-- Contact Section -->
@@ -136,8 +129,9 @@
         </div>
     </section>
 
-    <!-- Map Section -->
-    <div id="map"></div>
+    <!-- crazy picture section -->
+
+
 
     <!-- Footer -->
     <footer>
@@ -159,8 +153,10 @@
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
+    <script src="js/grayscale.js"></script>
 
 </body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
 
 </html>

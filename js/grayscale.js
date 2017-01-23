@@ -183,3 +183,32 @@ function init() {
         icon: image
     });
 }
+$(function () { 
+    var myChart = Highcharts.chart('container', {
+        chart: {
+            type: 'bar'
+        },
+        title: {
+            text: 'Time Consumption'
+        },
+        xAxis: {
+            categories: ['Learning to Code', 'Parenting', 'Other Life']
+        },
+        yAxis: {
+            title: {
+                text: 'Hours'
+            }
+        },
+        series: [{
+            name: "Peter's Time",
+            data: [3, 4, 4]
+        }
+        // , {
+        //     name: 'John',
+        //     data: [5, 20, 3]
+        // }
+        ],
+        colors: ['pink', '#434348', '#90ed7d', '#f7a35c', '#8085e9', 
+   '#f15c80', '#e4d354', '#2b908f', '#f45b5b', '#91e8e1']
+    });
+});
