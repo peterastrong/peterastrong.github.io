@@ -189,10 +189,10 @@ $(function () {
             type: 'bar'
         },
         title: {
-            text: 'Time Consumption'
+            text: 'Daily Time Consumption'
         },
         xAxis: {
-            categories: ['Learning to Code', 'Parenting', 'Other Life']
+            categories: ['Learning to Code', 'Parenting', 'Sleeping', 'Other Life']
         },
         yAxis: {
             title: {
@@ -200,8 +200,8 @@ $(function () {
             }
         },
         series: [{
-            name: "Peter's Time",
-            data: [3, 4, 4]
+            name: "My Time",
+            data: [3, 10, 7, 4]
         }
         // , {
         //     name: 'John',
